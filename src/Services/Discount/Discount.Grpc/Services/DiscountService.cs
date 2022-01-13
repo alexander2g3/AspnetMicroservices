@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace Discount.Grpc.Services
 {
 
-    public class DiscountService: DsicountProtoService.DsicountProtoServiceBase
+    public class DiscountService: DiscountProtoService.DiscountProtoServiceBase
     {
         private readonly IDiscountRepository _repository;
         private readonly IMapper _mapper;

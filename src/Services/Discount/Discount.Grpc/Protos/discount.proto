@@ -3,7 +3,7 @@ syntax = "proto3";
 option csharp_namespace = "Discount.Grpc.Protos";
 
 
-service DsicountProtoService {
+service DiscountProtoService {
 	rpc GetDiscount (GetDiscountRequest) returns (CouponModel);
 
 	rpc CreateDiscount (CreateDiscountRequest) returns (CouponModel);
